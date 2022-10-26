@@ -12,25 +12,29 @@ For this analysis we had a dataset containing various measures on 34,000 organiz
 
 For the neural network model I have two hidden layers. My first layer had 30 neurons, the second has 25 there is also an output layer. The first and second hidden layer have the "relu" activation function and the activation function for the output layer is "sigmoid".
 
-![]()
+![]('1.PNG')
 
 The model was able to reach a target of 72%
 
-![]()
+![]('2.PNG')
 
 The steps taken to try and increase model performance
 
-Attempt 1: Removed additional feature, that is the 'USE_CASE' column. Rest of the model components stayed the same, however model accuracy stayed at 72%
+Attempt 1: Adding Additional neurons to hidden layers and additional hidden layers are added. The accuracy stayed the same as 72%
 
+![]('3.PNG')
 
+![]('4.PNG')
 
-Attempt 2: Adding Additional neurons to hidden layers and additional hidden layers are added. The accuracy stayed the same as 72%
+Attempt 2: Changing activation function of output layer from "sigmoid" to "tanh." The  accuracy stayed the same as 72%
 
+![]('5.PNG')
 
-Attempt 3: Changing activation function of output layer from "sigmoid" to "tanh." The  accuracy stayed the same as 72%
+![]('6.PNG')
 
+Attempt 3: Removed additional feature, that is the 'USE_CASE' column. Rest of the model components stayed the same, however model accuracy stayed at 72%
 
-
+![]('7.PNG')
 
 ## Summary 
 

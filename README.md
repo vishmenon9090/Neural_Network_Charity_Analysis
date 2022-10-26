@@ -18,21 +18,21 @@ The model was able to reach a target of 72%
 
 ![](2.PNG)
 
-The steps taken to try and increase model performance
+## The steps taken to try and increase model performance
 
-Attempt 1: Adding Additional neurons to hidden layers and additional hidden layers are added. The accuracy stayed the same as 72%
+* Attempt 1: Adding Additional neurons to hidden layers and additional hidden layers are added. The accuracy stayed the same as 72%
 
 ![](3.PNG)
 
 ![](4.PNG)
 
-Attempt 2: Changing activation function of output layer from "sigmoid" to "tanh." The  accuracy stayed the same as 72%
+* Attempt 2: Changing activation function of output layer from "sigmoid" to "tanh." The  accuracy stayed the same as 72%
 
 ![](5.PNG)
 
 ![](6.PNG)
 
-Attempt 3: Removed additional feature, that is the 'USE_CASE' column. Rest of the model components stayed the same, however model accuracy stayed at 72%
+* Attempt 3: Removed additional feature, that is the 'USE_CASE' column. Rest of the model components stayed the same, however model accuracy stayed at 72%
 
 ![](7.PNG)
 
